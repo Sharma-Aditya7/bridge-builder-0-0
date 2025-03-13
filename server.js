@@ -54,7 +54,7 @@ app.prepare().then(() => {
         setTimeout(() => {
           const welcomeMessage = {
             sender: 'ai',
-            content: 'Hello! I am your AI mediator. I'm here to help facilitate a constructive conversation. Could you both briefly explain what brought you here today?',
+            content: "Hello! I am your AI mediator. I'm here to help facilitate a constructive conversation. Could you both briefly explain what brought you here today?",
             timestamp: new Date()
           };
           
